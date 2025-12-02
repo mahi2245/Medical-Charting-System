@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Maui.Assignment1.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Maui.Assignment1"
+    xmlns:views="clr-namespace:Maui.Assignment1.Views"
+    Title="Medical Charting System">
+
+    <TabBar>
+        <!-- Patients Tab -->
+        <ShellContent
+            Title="Patients"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Route="Patients" />
+
+        <!-- Physicians Tab -->
+        <ShellContent
+            Title="Physicians"
+            ContentTemplate="{DataTemplate views:PhysicianMainPage}"
+            Route="Physicians" />
+
+        <!-- Appointments Tab -->
+        <ShellContent
+            Title="Appointments"
+            ContentTemplate="{DataTemplate views:AppointmentMainPage}"
+            Route="Appointments" />
+    </TabBar>
+
+</Shell>

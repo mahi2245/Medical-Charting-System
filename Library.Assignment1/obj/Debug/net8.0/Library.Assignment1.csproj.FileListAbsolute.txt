@@ -1,0 +1,12 @@
+/Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Library.Assignment1/bin/Debug/net8.0/Library.Assignment1.deps.json
+/Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Library.Assignment1/bin/Debug/net8.0/Library.Assignment1.dll
+/Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Library.Assignment1/bin/Debug/net8.0/Library.Assignment1.pdb
+/Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Library.Assignment1/obj/Debug/net8.0/Library.Assignment1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Library.Assignment1/obj/Debug/net8.0/Library.Assignment1.AssemblyInfoInputs.cache
+/Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Library.Assignment1/obj/Debug/net8.0/Library.Assignment1.AssemblyInfo.cs
+/Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Library.Assignment1/obj/Debug/net8.0/Library.Assignment1.csproj.CoreCompileInputs.cache
+/Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Library.Assignment1/obj/Debug/net8.0/Library.Assignment1.sourcelink.json
+/Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Library.Assignment1/obj/Debug/net8.0/Library.Assignment1.dll
+/Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Library.Assignment1/obj/Debug/net8.0/refint/Library.Assignment1.dll
+/Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Library.Assignment1/obj/Debug/net8.0/Library.Assignment1.pdb
+/Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Library.Assignment1/obj/Debug/net8.0/ref/Library.Assignment1.dll
