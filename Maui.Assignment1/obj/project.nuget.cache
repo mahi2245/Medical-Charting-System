@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "dgSpecHash": "ejPhlhUK2ik=",
+  "success": true,
+  "projectFilePath": "/Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/Maui.Assignment1.csproj",
+  "expectedPackageFiles": [
+    "/Users/mahiagrawal/.nuget/packages/microsoft.extensions.configuration/8.0.0/microsoft.extensions.configuration.8.0.0.nupkg.sha512",
+    "/Users/mahiagrawal/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "/Users/mahiagrawal/.nuget/packages/microsoft.extensions.dependencyinjection/9.0.5/microsoft.extensions.dependencyinjection.9.0.5.nupkg.sha512",
+    "/Users/mahiagrawal/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.5/microsoft.extensions.dependencyinjection.abstractions.9.0.5.nupkg.sha512",
+    "/Users/mahiagrawal/.nuget/packages/microsoft.extensions.logging/9.0.5/microsoft.extensions.logging.9.0.5.nupkg.sha512",
+    "/Users/mahiagrawal/.nuget/packages/microsoft.extensions.logging.abstractions/9.0.5/microsoft.extensions.logging.abstractions.9.0.5.nupkg.sha512",
+    "/Users/mahiagrawal/.nuget/packages/microsoft.extensions.logging.debug/9.0.5/microsoft.extensions.logging.debug.9.0.5.nupkg.sha512",
+    "/Users/mahiagrawal/.nuget/packages/microsoft.extensions.options/9.0.5/microsoft.extensions.options.9.0.5.nupkg.sha512",
+    "/Users/mahiagrawal/.nuget/packages/microsoft.extensions.primitives/9.0.5/microsoft.extensions.primitives.9.0.5.nupkg.sha512",
+    "/Users/mahiagrawal/.nuget/packages/microsoft.maui.controls/8.0.100/microsoft.maui.controls.8.0.100.nupkg.sha512",
+    "/Users/mahiagrawal/.nuget/packages/microsoft.maui.controls.build.tasks/8.0.100/microsoft.maui.controls.build.tasks.8.0.100.nupkg.sha512",
+    "/Users/mahiagrawal/.nuget/packages/microsoft.maui.controls.compatibility/8.0.100/microsoft.maui.controls.compatibility.8.0.100.nupkg.sha512",
+    "/Users/mahiagrawal/.nuget/packages/microsoft.maui.controls.core/8.0.100/microsoft.maui.controls.core.8.0.100.nupkg.sha512",
+    "/Users/mahiagrawal/.nuget/packages/microsoft.maui.controls.xaml/8.0.100/microsoft.maui.controls.xaml.8.0.100.nupkg.sha512",
+    "/Users/mahiagrawal/.nuget/packages/microsoft.maui.core/8.0.100/microsoft.maui.core.8.0.100.nupkg.sha512",
+    "/Users/mahiagrawal/.nuget/packages/microsoft.maui.essentials/8.0.100/microsoft.maui.essentials.8.0.100.nupkg.sha512",
+    "/Users/mahiagrawal/.nuget/packages/microsoft.maui.graphics/8.0.100/microsoft.maui.graphics.8.0.100.nupkg.sha512",
+    "/Users/mahiagrawal/.nuget/packages/microsoft.maui.resizetizer/8.0.100/microsoft.maui.resizetizer.8.0.100.nupkg.sha512",
+    "/Users/mahiagrawal/.nuget/packages/microsoft.net.illink.tasks/8.0.21/microsoft.net.illink.tasks.8.0.21.nupkg.sha512",
+    "/Users/mahiagrawal/.nuget/packages/newtonsoft.json/13.0.4/newtonsoft.json.13.0.4.nupkg.sha512",
+    "/Users/mahiagrawal/.nuget/packages/system.diagnostics.diagnosticsource/9.0.5/system.diagnostics.diagnosticsource.9.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Maui.Assignment1.Views.AppointmentView"
+             NavigatedTo="ContentPage_NavigatedTo">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Label 
+                Text="Schedule Appointment"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center" />
+
+            <!-- Appointment Information Section -->
+            <Frame BorderColor="Gray" CornerRadius="5" Padding="15">
+                <VerticalStackLayout Spacing="15">
+                    <Label Text="Appointment Details" FontSize="20" FontAttributes="Bold"/>
+                    
+                    <Label Text="Date (MM/DD/YYYY):"/>
+                    <Entry x:Name="DateEntry" 
+                           Text="{Binding Date}"
+                           Placeholder="MM/DD/YYYY"/>
+
+                    <Label Text="Time (HH:MM AM/PM):"/>
+                    <Entry x:Name="TimeEntry" 
+                           Text="{Binding Time}"
+                           Placeholder="9:00 AM"/>
+
+                    <Label Text="Patient Name:"/>
+                    <Entry x:Name="PatientNameEntry" 
+                           Text="{Binding PatientName}"
+                           Placeholder="Enter patient name"/>
+
+                    <Label Text="Physician Name:"/>
+                    <Entry x:Name="PhysicianNameEntry" 
+                           Text="{Binding PhysicianName}"
+                           Placeholder="Enter physician name"/>
+
+                    <!-- Validation Message -->
+                    <Label x:Name="ValidationMessage" 
+                           TextColor="Red" 
+                           IsVisible="False"
+                           FontSize="14"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Action Buttons -->
+            <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
+                <Button Text="Schedule" 
+                        Clicked="OkClicked"
+                        WidthRequest="100"/>
+                <Button Text="Cancel" 
+                        Clicked="CancelClicked"
+                        WidthRequest="100"/>
+            </HorizontalStackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

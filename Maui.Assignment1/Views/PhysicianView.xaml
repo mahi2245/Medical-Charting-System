@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Maui.Assignment1.Views.PhysicianView"
+             NavigatedTo="ContentPage_NavigatedTo">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Label 
+                Text="Physician Details"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center" />
+
+            <!-- Physician Information Section -->
+            <Frame BorderColor="Gray" CornerRadius="5" Padding="15">
+                <VerticalStackLayout Spacing="15">
+                    <Label Text="Physician Information" FontSize="20" FontAttributes="Bold"/>
+                    
+                    <Label Text="Name:"/>
+                    <Entry x:Name="NameEntry" 
+                           Text="{Binding Name}" 
+                           Placeholder="Enter physician name"/>
+
+                    <Label Text="License Number:"/>
+                    <Entry x:Name="LicenseNumberEntry" 
+                           Text="{Binding LicenseNumber}" 
+                           Placeholder="Enter license number"/>
+
+                    <Label Text="Graduation Date:"/>
+                    <Entry x:Name="GraduationDateEntry" 
+                           Text="{Binding GraduationDate}" 
+                           Placeholder="MM/DD/YYYY"/>
+
+                    <Label Text="Specialization:"/>
+                    <Entry x:Name="SpecializationEntry" 
+                           Text="{Binding Specialization}" 
+                           Placeholder="Enter specialization"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Action Buttons -->
+            <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
+                <Button Text="Save" 
+                        Clicked="OkClicked"
+                        WidthRequest="100"/>
+                <Button Text="Cancel" 
+                        Clicked="CancelClicked"
+                        WidthRequest="100"/>
+            </HorizontalStackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

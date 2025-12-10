@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Maui.Assignment1.Views.PhysicianMainPage"
+             NavigatedTo="ContentPage_NavigatedTo">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Label 
+                Text="Medical Charting - Physicians"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center" />
+
+            <!-- Search Section -->
+            <HorizontalStackLayout Spacing="10">
+                <Entry x:Name="SearchEntry" 
+                       Placeholder="Search physicians..." 
+                       Text="{Binding Query}"
+                       WidthRequest="300"/>
+                <Button Text="Search" 
+                        Clicked="SearchClicked"/>
+            </HorizontalStackLayout>
+
+            <!-- Inline Add Card -->
+            <Frame IsVisible="{Binding InlineCardVisibility}" 
+                   BorderColor="Gray" 
+                   CornerRadius="5" 
+                   Padding="10">
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="Add New Physician" FontSize="18" FontAttributes="Bold"/>
+                    <Entry Placeholder="Name" Text="{Binding InlinePhysician.Model.Name}"/>
+                    <Entry Placeholder="License Number" Text="{Binding InlinePhysician.Model.LicenseNumber}"/>
+                    <Entry Placeholder="Graduation Date" Text="{Binding InlinePhysician.Model.GraduationDate}"/>
+                    <Entry Placeholder="Specialization" Text="{Binding InlinePhysician.Model.Specialization}"/>
+                    <Button Text="Save" Clicked="InlineAddClicked"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Action Buttons -->
+            <HorizontalStackLayout Spacing="10">
+                <Button Text="Add Physician" 
+                        Clicked="AddClicked"/>
+                <Button Text="Edit Selected" 
+                        Clicked="EditClicked"/>
+                <Button Text="Delete Selected" 
+                        Clicked="DeleteClicked"/>
+                <Button Text="Inline Add" 
+                        Clicked="ExpandCardClicked"/>
+            </HorizontalStackLayout>
+
+            <!-- Physician List -->
+            <CollectionView x:Name="PhysicianList" 
+                            ItemsSource="{Binding Physicians}"
+                            SelectionMode="Single"
+                            SelectedItem="{Binding SelectedPhysician}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame Margin="5" 
+                               Padding="10" 
+                               BorderColor="LightGray"
+                               CornerRadius="5">
+                            <VerticalStackLayout Spacing="5">
+                                <Label Text="{Binding Model.Name}" 
+                                       FontSize="18" 
+                                       FontAttributes="Bold"/>
+                                <Label Text="{Binding Model.LicenseNumber, StringFormat='License: {0}'}" 
+                                       FontSize="14"/>
+                                <Label Text="{Binding Model.GraduationDate, StringFormat='Graduated: {0}'}" 
+                                       FontSize="14"/>
+                                <Label Text="{Binding Model.Specialization, StringFormat='Specialization: {0}'}" 
+                                       FontSize="14"/>
+                            </VerticalStackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

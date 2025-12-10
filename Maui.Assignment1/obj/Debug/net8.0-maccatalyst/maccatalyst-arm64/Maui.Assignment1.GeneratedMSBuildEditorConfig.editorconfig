@@ -1,0 +1,77 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Maui.Assignment1
+build_property.ProjectDir = /Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[/Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Maui.Assignment1.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[/Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Maui.Assignment1.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[/Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Maui.Assignment1.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[/Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Maui.Assignment1.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
+
+[/Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Maui.Assignment1.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
+
+[/Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/Views/AppointmentMainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Maui.Assignment1.Views.AppointmentMainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/AppointmentMainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/AppointmentMainPage.xaml
+
+[/Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/Views/AppointmentView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Maui.Assignment1.Views.AppointmentView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/AppointmentView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/AppointmentView.xaml
+
+[/Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/Views/PatientView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Maui.Assignment1.Views.PatientView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/PatientView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/PatientView.xaml
+
+[/Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/Views/PhysicianMainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Maui.Assignment1.Views.PhysicianMainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/PhysicianMainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/PhysicianMainPage.xaml
+
+[/Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/Views/PhysicianView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Maui.Assignment1.Views.PhysicianView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/PhysicianView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/PhysicianView.xaml
