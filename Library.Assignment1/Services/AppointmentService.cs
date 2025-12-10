@@ -1,5 +1,6 @@
 using System;
 using System.ComponentModel;
+using Library.Assignment1.DTO;
 using Library.Assignment1.Models;
 
 namespace Library.Assignment1.Services
@@ -31,7 +32,7 @@ namespace Library.Assignment1.Services
             }
         }
 
-        public bool ScheduleAppointment(DateTime date, Patient patient, Physician physician)
+        public bool ScheduleAppointment(DateTime date, PatientDTO patient, Physician physician)
         {
             if (date.DayOfWeek == DayOfWeek.Saturday || date.DayOfWeek == DayOfWeek.Sunday)
             {

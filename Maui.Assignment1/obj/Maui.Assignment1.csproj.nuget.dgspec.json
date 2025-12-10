@@ -43,6 +43,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -82,8 +88,6 @@
           "/Users/mahiagrawal/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net8.0-android",
-          "net8.0-ios",
           "net8.0-maccatalyst"
         ],
         "sources": {
@@ -91,22 +95,6 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0-android34.0": {
-            "targetAlias": "net8.0-android",
-            "projectReferences": {
-              "/Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Library.Assignment1/Library.Assignment1.csproj": {
-                "projectPath": "/Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Library.Assignment1/Library.Assignment1.csproj"
-              }
-            }
-          },
-          "net8.0-ios18.0": {
-            "targetAlias": "net8.0-ios",
-            "projectReferences": {
-              "/Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Library.Assignment1/Library.Assignment1.csproj": {
-                "projectPath": "/Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Library.Assignment1/Library.Assignment1.csproj"
-              }
-            }
-          },
           "net8.0-maccatalyst18.0": {
             "targetAlias": "net8.0-maccatalyst",
             "projectReferences": {
@@ -128,92 +116,6 @@
         }
       },
       "frameworks": {
-        "net8.0-android34.0": {
-          "targetAlias": "net8.0-android",
-          "dependencies": {
-            "Microsoft.Extensions.Logging.Debug": {
-              "target": "Package",
-              "version": "[9.0.5, )"
-            },
-            "Microsoft.Maui.Controls": {
-              "target": "Package",
-              "version": "[8.0.100, )"
-            },
-            "Microsoft.Maui.Controls.Compatibility": {
-              "target": "Package",
-              "version": "[8.0.100, )"
-            },
-            "Microsoft.NET.ILLink.Tasks": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.21, )",
-              "autoReferenced": true
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.Android": {
-              "privateAssets": "all"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.415/PortableRuntimeIdentifierGraph.json"
-        },
-        "net8.0-ios18.0": {
-          "targetAlias": "net8.0-ios",
-          "dependencies": {
-            "Microsoft.Extensions.Logging.Debug": {
-              "target": "Package",
-              "version": "[9.0.5, )"
-            },
-            "Microsoft.Maui.Controls": {
-              "target": "Package",
-              "version": "[8.0.100, )"
-            },
-            "Microsoft.Maui.Controls.Compatibility": {
-              "target": "Package",
-              "version": "[8.0.100, )"
-            },
-            "Microsoft.NET.ILLink.Tasks": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.21, )",
-              "autoReferenced": true
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.iOS": {
-              "privateAssets": "all"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.415/PortableRuntimeIdentifierGraph.json"
-        },
         "net8.0-maccatalyst18.0": {
           "targetAlias": "net8.0-maccatalyst",
           "dependencies": {

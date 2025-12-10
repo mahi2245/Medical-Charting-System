@@ -48,6 +48,7 @@
 /Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../Maui.Assignment1.app/Contents/MonoBundle/Microsoft.Maui.dll
 /Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../Maui.Assignment1.app/Contents/MonoBundle/Microsoft.Maui.Essentials.dll
 /Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../Maui.Assignment1.app/Contents/MonoBundle/Microsoft.Maui.Graphics.dll
+/Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../Maui.Assignment1.app/Contents/MonoBundle/Newtonsoft.Json.dll
 /Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../Maui.Assignment1.app/Contents/MonoBundle/System.Diagnostics.DiagnosticSource.dll
 /Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../Maui.Assignment1.app/Contents/MonoBundle/Library.Assignment1.dll
 /Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../Maui.Assignment1.app/Contents/MonoBundle/Microsoft.Maui.Controls.HotReload.Forms.dll
@@ -55,6 +56,7 @@
 /Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../Maui.Assignment1.app/Contents/MonoBundle/Microsoft.VisualStudio.DesignTools.TapContract.dll
 /Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../Maui.Assignment1.app/Contents/MonoBundle/Microsoft.VisualStudio.DesignTools.XamlTapContract.dll
 /Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../Maui.Assignment1.app/Contents/MonoBundle/Maui.Assignment1.dll
+/Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../Maui.Assignment1.app/Contents/MonoBundle/Microsoft.CSharp.dll
 /Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../Maui.Assignment1.app/Contents/MonoBundle/System.Collections.Concurrent.dll
 /Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../Maui.Assignment1.app/Contents/MonoBundle/System.Collections.NonGeneric.dll
 /Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../Maui.Assignment1.app/Contents/MonoBundle/System.Collections.Specialized.dll
@@ -63,6 +65,7 @@
 /Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../Maui.Assignment1.app/Contents/MonoBundle/System.ComponentModel.TypeConverter.dll
 /Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../Maui.Assignment1.app/Contents/MonoBundle/System.ComponentModel.dll
 /Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../Maui.Assignment1.app/Contents/MonoBundle/System.Console.dll
+/Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../Maui.Assignment1.app/Contents/MonoBundle/System.Data.Common.dll
 /Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../Maui.Assignment1.app/Contents/MonoBundle/System.Diagnostics.Process.dll
 /Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../Maui.Assignment1.app/Contents/MonoBundle/System.Diagnostics.TraceSource.dll
 /Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../Maui.Assignment1.app/Contents/MonoBundle/System.Drawing.Primitives.dll
@@ -85,6 +88,9 @@
 /Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../Maui.Assignment1.app/Contents/MonoBundle/System.Private.Uri.dll
 /Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../Maui.Assignment1.app/Contents/MonoBundle/System.Private.Xml.Linq.dll
 /Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../Maui.Assignment1.app/Contents/MonoBundle/System.Private.Xml.dll
+/Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../Maui.Assignment1.app/Contents/MonoBundle/System.Reflection.Emit.ILGeneration.dll
+/Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../Maui.Assignment1.app/Contents/MonoBundle/System.Reflection.Emit.Lightweight.dll
+/Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../Maui.Assignment1.app/Contents/MonoBundle/System.Reflection.Primitives.dll
 /Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../Maui.Assignment1.app/Contents/MonoBundle/System.Runtime.InteropServices.dll
 /Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../Maui.Assignment1.app/Contents/MonoBundle/System.Runtime.Loader.dll
 /Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../Maui.Assignment1.app/Contents/MonoBundle/System.Runtime.Numerics.dll
@@ -92,11 +98,13 @@
 /Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../Maui.Assignment1.app/Contents/MonoBundle/System.Runtime.Serialization.Primitives.dll
 /Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../Maui.Assignment1.app/Contents/MonoBundle/System.Runtime.dll
 /Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../Maui.Assignment1.app/Contents/MonoBundle/System.Security.Cryptography.dll
+/Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../Maui.Assignment1.app/Contents/MonoBundle/System.Text.Encoding.Extensions.dll
 /Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../Maui.Assignment1.app/Contents/MonoBundle/System.Text.RegularExpressions.dll
 /Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../Maui.Assignment1.app/Contents/MonoBundle/System.Threading.Thread.dll
 /Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../Maui.Assignment1.app/Contents/MonoBundle/System.Threading.dll
 /Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../Maui.Assignment1.app/Contents/MonoBundle/System.Xml.Linq.dll
 /Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../Maui.Assignment1.app/Contents/MonoBundle/System.Xml.ReaderWriter.dll
+/Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../Maui.Assignment1.app/Contents/MonoBundle/System.Xml.XDocument.dll
 /Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../Maui.Assignment1.app/Contents/MonoBundle/System.dll
 /Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../Maui.Assignment1.app/Contents/MonoBundle/netstandard.dll
 /Users/mahiagrawal/Downloads/full-stack app dev/Assignment1/Maui.Assignment1/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../Maui.Assignment1.app/Contents/MonoBundle/System.Private.CoreLib.dll

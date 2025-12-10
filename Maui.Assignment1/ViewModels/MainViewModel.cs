@@ -1,13 +1,9 @@
-using Library.Assignment1.Models;
-using Library.Assignment1.Services;
-using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
-using System.Linq;
 using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
+using Library.Assignment1.DTO;
+using Library.Assignment1.Data;
+using Library.Assignment1.Services;
 
 namespace Maui.Assignment1.ViewModels
 {
@@ -15,80 +11,99 @@ namespace Maui.Assignment1.ViewModels
     {
         public MainViewModel()
         {
-            InlinePatient = new PatientViewModel();
+            InlinePatient = new PatientViewModel(new PatientDTO());
+
             InlineCardVisibility = false;
-        }
 
-        public ObservableCollection<PatientViewModel?> Patients
-        {
-            get
-            {
-                return new ObservableCollection<PatientViewModel?>
-                    (PatientService
-                    .Current
-                    .Patients
-                    .Where(
-                        p => (p?.Name?.ToUpper()?.Contains(Query?.ToUpper() ?? string.Empty) ?? false)
-                        || (p?.Address?.ToUpper()?.Contains(Query?.ToUpper() ?? string.Empty) ?? false)
-                        || (p?.Race?.ToUpper()?.Contains(Query?.ToUpper() ?? string.Empty) ?? false)
-                        || (p?.Gender?.ToUpper()?.Contains(Query?.ToUpper() ?? string.Empty) ?? false)
-                    )
+            patients = new ObservableCollection<PatientViewModel?>(
+                PatientService.Current.Patients
                     .Select(p => new PatientViewModel(p))
-                    );
-            }
+            );
         }
 
-        private bool inlineCardVisibility;
-        public bool InlineCardVisibility
-        {
-            get
-            {
-                return inlineCardVisibility;
-            }
+        private ObservableCollection<PatientViewModel?> patients;
+        public ObservableCollection<PatientViewModel?> Patients => patients;
 
+        public PatientViewModel? SelectedPatient { get; set; }
+
+        private string? query;
+        public string? Query
+        {
+            get => query;
             set
             {
-                if (inlineCardVisibility != value)
+                query = value;
+                NotifyPropertyChanged();
+            }
+        }
+
+        public PatientViewModel? InlinePatient { get; set; }
+
+        private bool inlineCardVisible;
+        public bool InlineCardVisibility
+        {
+            get => inlineCardVisible;
+            set
+            {
+                if (inlineCardVisible != value)
                 {
-                    inlineCardVisibility = value;
+                    inlineCardVisible = value;
                     NotifyPropertyChanged();
                 }
             }
         }
 
-        public void Refresh()
+        public async void Refresh()
         {
+            var result = await PatientService.Current.Search(new QueryRequest { Content = "" });
+            patients = new ObservableCollection<PatientViewModel?>(result.Select(r => new PatientViewModel(r)));
             NotifyPropertyChanged(nameof(Patients));
         }
 
-        public PatientViewModel? SelectedPatient { get; set; }
-        public string? Query { get; set; }
 
-        public PatientViewModel? InlinePatient { get; set; }
 
-        public event PropertyChangedEventHandler? PropertyChanged;
+        public async Task Search()
+        {
+            var result = await PatientService.Current.Search(new QueryRequest { Content = Query });
+
+            patients = new ObservableCollection<PatientViewModel?>(
+                result.Select(r => new PatientViewModel(r))
+            );
+
+            NotifyPropertyChanged(nameof(Patients));
+        }
 
         public void Delete()
         {
             if (SelectedPatient == null)
-            {
                 return;
-            }
 
-            PatientService.Current.Patients.Remove(SelectedPatient?.Model);
+            _ = PatientService.Current.Delete(SelectedPatient.Model!.Id);
+
+            patients.Remove(SelectedPatient);
+
             NotifyPropertyChanged(nameof(Patients));
         }
 
-        public void AddInlinePatient()
+        public async Task<bool> AddInlinePatient()
         {
-            if (InlinePatient?.Model != null)
+            try
             {
-                PatientService.Current.AddPatient(InlinePatient?.Model);
-                NotifyPropertyChanged(nameof(Patients));
+                var saved = await PatientService.Current.AddOrUpdate(InlinePatient?.Model);
 
-                InlinePatient = new PatientViewModel();
+                patients.Add(new PatientViewModel(saved));
+
+                InlinePatient = new PatientViewModel(new PatientDTO());
                 NotifyPropertyChanged(nameof(InlinePatient));
+
+                NotifyPropertyChanged(nameof(Patients));
             }
+            catch
+            {
+                return false;
+            }
+
+            return true;
         }
 
         public void ExpandCard()
@@ -96,6 +111,7 @@ namespace Maui.Assignment1.ViewModels
             InlineCardVisibility = !InlineCardVisibility;
         }
 
+        public event PropertyChangedEventHandler? PropertyChanged;
         private void NotifyPropertyChanged([CallerMemberName] string propertyName = "")
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));

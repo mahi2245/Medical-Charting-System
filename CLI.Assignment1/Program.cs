@@ -37,7 +37,7 @@ namespace CLI.Assignment1
                         patient.Birthdate = Console.ReadLine();
                         patient.Race = Console.ReadLine();
                         patient.Gender = Console.ReadLine();
-                        patients.AddPatient(patient);
+                        // patients.AddPatient(patient);
                         break;
                     case "2":
                         // list all patients

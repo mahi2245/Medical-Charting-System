@@ -436,6 +436,9 @@
     <ReferenceNativeSymbol Include="_GlobalizationNative_GetSortKey">
       <SymbolType>Function</SymbolType>
     </ReferenceNativeSymbol>
+    <ReferenceNativeSymbol Include="_GlobalizationNative_GetSortVersion">
+      <SymbolType>Function</SymbolType>
+    </ReferenceNativeSymbol>
     <ReferenceNativeSymbol Include="_GlobalizationNative_ToAscii">
       <SymbolType>Function</SymbolType>
     </ReferenceNativeSymbol>

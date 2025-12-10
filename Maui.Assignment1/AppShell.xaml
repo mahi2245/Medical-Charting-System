@@ -12,7 +12,8 @@
         <ShellContent
             Title="Patients"
             ContentTemplate="{DataTemplate local:MainPage}"
-            Route="Patients" />
+            Route="MainPage" />
+
 
         <!-- Physicians Tab -->
         <ShellContent

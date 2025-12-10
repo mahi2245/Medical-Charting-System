@@ -2,6 +2,7 @@
 {
     public class Patient
     {
+        public int Id { get; set; }
         public string? Name { get; set; }
         public string? Address { get; set; }
         public string? Birthdate { get; set; }
@@ -12,7 +13,7 @@
 
         public override string ToString()
         {
-            return $"{Name}, {Address}, {Birthdate}, {Race}, {Gender}";
+            return $"{Id}. {Name}, {Address}, {Birthdate}, {Race}, {Gender}";
         }
 
     }

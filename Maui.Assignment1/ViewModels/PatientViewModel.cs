@@ -1,10 +1,5 @@
-using Library.Assignment1.Models;
+using Library.Assignment1.DTO;
 using Library.Assignment1.Services;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Input;
 
 namespace Maui.Assignment1.ViewModels
@@ -13,15 +8,20 @@ namespace Maui.Assignment1.ViewModels
     {
         public PatientViewModel()
         {
-            Model = new Patient();
+            Model = new PatientDTO();
             SetUpCommands();
         }
 
-        public PatientViewModel(Patient? model)
+        public PatientViewModel(PatientDTO? dto)
         {
-            Model = model;
+            Model = dto ?? new PatientDTO();
             SetUpCommands();
         }
+
+        public PatientDTO? Model { get; set; }
+
+        public ICommand? DeleteCommand { get; set; }
+        public ICommand? EditCommand { get; set; }
 
         private void SetUpCommands()
         {
@@ -31,10 +31,10 @@ namespace Maui.Assignment1.ViewModels
 
         private void DoDelete()
         {
-            if (Model != null)
+            if (Model?.Id > 0)
             {
-                PatientService.Current.Patients.Remove(Model);
-                Shell.Current.GoToAsync("//Patients");
+                PatientService.Current.Delete(Model.Id);
+                Shell.Current.GoToAsync("//MainPage");
             }
         }
 
@@ -44,13 +44,10 @@ namespace Maui.Assignment1.ViewModels
             {
                 return;
             }
-            var selectedPatient = pv?.Model?.Name ?? string.Empty;
-            Shell.Current.GoToAsync($"PatientDetail?patientName={selectedPatient}");
+
+            var selectedId = pv?.Model?.Id ?? 0;
+
+            Shell.Current.GoToAsync($"//Patient?patientId={selectedId}");
         }
-
-        public Patient? Model { get; set; }
-
-        public ICommand? DeleteCommand { get; set; }
-        public ICommand? EditCommand { get; set; }
     }
 }
